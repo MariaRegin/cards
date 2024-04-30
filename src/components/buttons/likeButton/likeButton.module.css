@@ -1,0 +1,11 @@
+.button {
+  background-color: rgb(163, 157, 157);
+}
+
+.button:hover {
+  background-color: rgb(115, 154, 89);
+}
+
+.clicked {
+  background-color: var(--color-liked);
+}

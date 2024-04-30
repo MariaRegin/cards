@@ -1,0 +1,9 @@
+.container {
+  height: 80%;
+  overflow: hidden;
+  margin: 7px;
+}
+
+.image {
+  height: 80%;
+}

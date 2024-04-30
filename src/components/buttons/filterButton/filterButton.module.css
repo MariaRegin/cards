@@ -1,0 +1,11 @@
+.button {
+  color: white;
+  background-color: rgb(53, 53, 53);
+  border: 2px solid black;
+  margin: 2em;
+  padding: 1em;
+}
+
+.button:hover {
+  background-color: var(--color-liked);
+}

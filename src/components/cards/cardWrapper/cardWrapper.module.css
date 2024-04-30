@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards {
+  background-color: rgb(240, 233, 233);
+  border: 4px solid rgb(69, 67, 67, 50%);
+  border-radius: 5%;
+  height: 20em;
+  width: 17em;
+  margin: 10px;
+  padding: 10px;
+}
+
+.loader,
+.error {
+  font-size: 4em;
+  color: white;
+}
