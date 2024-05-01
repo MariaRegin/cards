@@ -1,6 +1,7 @@
 {
   "name": "cards",
   "version": "0.1.0",
+  "homepage": "https:///MariaRegin.github.io/cards",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
