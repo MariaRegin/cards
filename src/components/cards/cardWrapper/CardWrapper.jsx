@@ -10,6 +10,7 @@ const CardWrapper = () => {
   const { data: cards, isLoading, error } = useGetCardsQuery();
   const [cardList, setCardList] = useState([]);
   const [likedCards, setLikedCards] = useState([]);
+  const [isFiltered, setIsFiltered] = useState(false);
 
   useEffect(() => {
     if (cards && cards.data && cards.data.memes) {
@@ -43,7 +44,13 @@ const CardWrapper = () => {
 
   return (
     <div>
-      <FilterButton onClick={() => setCardList(filterLikedCards())} />
+      <FilterButton
+        onClick={() => {
+          const newIsFiltered = !isFiltered;
+          setIsFiltered(newIsFiltered);
+          setCardList(!newIsFiltered ? cards.data.memes : filterLikedCards());
+        }}
+      />
       <div className={styles.wrapper}>
         {cardList.map((item) => (
           <div className={styles.cards} key={item.id}>
