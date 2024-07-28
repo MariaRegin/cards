@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cards/static/css/main.1f1edefa.css",
-    "main.js": "/cards/static/js/main.1a252e2e.js",
-    "static/media/like.svg": "/cards/static/media/like.2736a9c255d1c1c409445b1383ef3961.svg",
-    "static/media/delete.svg": "/cards/static/media/delete.6295e0fec7a8c29a43e3e81099db0b09.svg",
-    "index.html": "/cards/index.html",
-    "main.1f1edefa.css.map": "/cards/static/css/main.1f1edefa.css.map",
-    "main.1a252e2e.js.map": "/cards/static/js/main.1a252e2e.js.map"
+    "main.css": "/memes/static/css/main.14779110.css",
+    "main.js": "/memes/static/js/main.4d70aa38.js",
+    "static/media/like.svg": "/memes/static/media/like.2736a9c255d1c1c409445b1383ef3961.svg",
+    "static/media/delete.svg": "/memes/static/media/delete.6295e0fec7a8c29a43e3e81099db0b09.svg",
+    "index.html": "/memes/index.html",
+    "main.14779110.css.map": "/memes/static/css/main.14779110.css.map",
+    "main.4d70aa38.js.map": "/memes/static/js/main.4d70aa38.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f1edefa.css",
-    "static/js/main.1a252e2e.js"
+    "static/css/main.14779110.css",
+    "static/js/main.4d70aa38.js"
   ]
 }
