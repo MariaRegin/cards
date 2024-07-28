@@ -35,11 +35,11 @@ const CardWrapper = () => {
   };
 
   if (isLoading) {
-    return <div className={styles.loader}>Загрузка...</div>;
+    return <div className={styles.loader}>Loading...</div>;
   }
 
   if (error) {
-    return <div className={styles.error}>Произошла ошибка</div>;
+    return <div className={styles.error}>Error ocured</div>;
   }
 
   return (

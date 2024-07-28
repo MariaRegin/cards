@@ -5,7 +5,7 @@ const Card = ({ text, image }) => {
   return (
     <div className={styles.container}>
       <p>{text}</p>
-      <img className={styles.image} src={image} alt="Список мемов"></img>
+      <img className={styles.image} src={image} alt="Memes list"></img>
     </div>
   );
 };
