@@ -12,3 +12,6 @@ https://mariaregin.github.io/cards/
 
 - Press icons to put likes or delete any meme from the list
 - Clicking on filter displays favorite memes only
+
+npm run build - build
+npm run deploy - deploy.
